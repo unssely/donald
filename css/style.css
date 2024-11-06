@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Zen Maru Gothic", serif;
+    font-size: 1em; /* 1rem = 0.8em =  16*0.8 =12.8px */
+}
+
+body {
+    background-color: rgb(216, 206, 194);
+}
+header {
+    background-color: rgb(154, 182, 182);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+footer {
+    background-color: rgb(154, 182, 182);
+    padding: 20px 50px;
+}
+
+.about {
+    background-color: lavender;
+    padding: 20px 50px;
+}
+.articles {
+    background-color: lightgray;
+    padding: 20px 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color:rgba(76, 1, 13, 0.882);
+}
+p {
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+}
+
+.img-about{
+    display: block;
+    margin: 0 auto;
+    -webkit-box-shadow: -5px -5px 5px -1px rgba(43, 44, 45, 0.52);
+    -moz-box-shadow: -5px -5px 5px -1px rgba(43, 44, 45, 0.52);
+    box-shadow: -5px -5px 5px -1px rgba(43, 44, 45, 0.52);
+}
+
+h1 {
+    color:darkblue;
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-transform: uppercase;
+}
+
+
+header ul {
+    list-style: none;
+}
+
+
+.content{
+    padding: 20px 50px;
+}
+/*
+
+1em =  размеру шрифта в браузере = 16px
+
+1rem = размеру шрифта, 
+который задан у тега html
+*/
+
+a:link{
+    color:rgb(12, 26, 44);
+}
+a:visited{
+    color:green 
+}
+a:hover{
+    color:rgb(63, 224, 22)
+}
+a:focus{
+    color:blue
+}
+.page-list li:nth-child(odd){
+    background-color:rgb(153, 142, 148);
+}
+
+h2::after {
+    content:"new";
+    font-size:10px;
+    margin-left:10px;
+    color:rgb(153, 142, 148);
+}
+
+ol.page-list {
+    border-bottom: dashed 1px red;
+}
+
+p {
+    margin-top: 0.5em; 
+    margin-bottom: 1em; 
+   }
+
+.table-example {
+    border: 5px solid rgb(44, 13, 102);
+    border-collapse:collapse;
+    padding: 30px;
+    width: 200px;
+    margin: 20px auto;
+}
+.table-example td,
+.table-example th {
+    border: 1px solid black;
+    padding: 5px 20px;
+    text-align: center;
+}
+.table-example caption {
+    color: rgb(44, 13, 102);
+    font-style: beige;
+}
+.table-example tr:nth-child(odd){
+    background-color:rgb(150, 194, 179);
+}
+.table-example td:first-child{
+    color:blue;
+}
+
+#form-example{
+    border: 3px solid rgb(44, 13, 102);
+    background-color: rgb(150, 194, 179);
+    border-radius: 30px;
+    padding: 30px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+#form-example input[type=submit],
+#form-example input[type=reset]
+{
+    padding: 5px 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(44, 13, 102);
+    color:white
+}
+
+#form-example input[type=submit]:hover,
+#form-example input[type=reset]:hover
+{
+    background-color: blueviolet;
+    color:azure;
+}
+
+#form-example input[type=text],
+#form-example input[type=password]{
+    background-color: rgb(225, 216, 233);
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#form-example textarea {
+    background-color: rgb(225, 216, 233);
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    padding: 7px;
+    width: 162;
+    height: 20px;
+
+}

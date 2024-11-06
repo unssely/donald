@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <table class="table-example">
+    <caption>Счёт</caption>
+    <thead>
+        <tr>
+            <th>Наиминование</th>
+            <th>Цена</th>
+            <th>Кол-во</th> 
+            <th>Стоимость</th>                                   
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>карандаш</td>
+            <td>5</td>
+            <td>5</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>ласстик</td>
+            <td>5</td>
+            <td>7</td>
+            <td>25</td>
+        </tr>
+                <tr>
+            <td>краски</td>
+            <td>5</td>
+            <td>9</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+  </table>  
+  <form id="form-example" action="">
+    <label for="login">Введите логин</label><br>
+    <input type="text" name="login" id="login" placeholder="логин" required><br>
+    <label for="pass">Введите пароль</label><br>
+    <input type="password" name="pass" id="pass" placeholder="пароль" required><br>
+    <input type="checkbox" name="remember" id="remember"
+    checked>
+    <label for="remember">Запомнить меня</table><br>
+
+        <input type="radio" name="gender" id="female">
+        <libel for="female">женский</libel>
+        <input type="radio" name="gender" id="male">
+        <libel for="female">мужской</libel><br>
+
+        <tabel for="comment">Введите комментарий</tabel><br>
+        <textarea name="comment" id="comment"></textarea><br>
+
+
+    <input type="submit" value="Войти">
+    <input type="reset" value="Сброс"><br>
+  </form>
+</body>
+</html>
